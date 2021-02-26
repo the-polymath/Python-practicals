@@ -2,11 +2,11 @@
 def check(a, b):
     try:
         div = a / b
-        print(div)
-    except Exception as e:
+        print("Divion", div)
+    except ArithmeticError as e:
         print(e)
 
 
-a = int(input())
-b = int(input())
+a = int(input("Enter a : "))
+b = int(input("Enter b : "))
 check(a, b)

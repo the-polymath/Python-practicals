@@ -3,10 +3,11 @@
 def check(n):
 
     try:
+        n = int(n)
         sq = n ** 0.5
         print(sq)
-    except:
+    except ValueError:
         print(" Squareroot cannot be calculate of", n)
 
-n = int(input())
+n = input("Enter no. : ")
 check(n)
