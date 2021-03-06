@@ -1,5 +1,5 @@
-# 4.9 Write a Python program that counts the number of occurrences of the character in the given
-# string. Provide two implementations: recursive and iterative
+''' 4.9 Write a Python program that counts the number of occurrences of the character in the given
+string. Provide two implementations: recursive and iterative '''
 
 class check:
     def checkrecursive(self, string, ch):
