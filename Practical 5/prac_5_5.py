@@ -8,10 +8,9 @@ def bubble(lst):
                 lst[j] = lst[j+1]
                 lst[j+1] = temp
 
-    return lst
 
 temp = input("Enter 10 elements separated by space : \n")
 lst = temp.split(" ")
 lst = [int(i) for i in lst]
-new_lst = bubble(lst)
-print("Sorted list = ", new_lst)
+bubble(lst)
+print("Sorted list using bubble sort = ", lst)

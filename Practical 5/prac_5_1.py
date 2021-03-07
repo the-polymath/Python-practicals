@@ -30,7 +30,7 @@ temp = input("Enter 10 elements separated by space : \n")
 lst = temp.split(" ")
 lst = [int(i) for i in lst]
 new_lst = bubble(lst)
-x = int(input("Enter the number to be searched"))
+x = int(input("Enter the number to be searched : "))
 print("Sorted list = ", new_lst)
 index = binary(new_lst, len(new_lst)-1, 0, x)
 if index == -1:
