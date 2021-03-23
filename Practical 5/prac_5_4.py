@@ -31,8 +31,6 @@ def merge(lst):
             j += 1
             k += 1
 
-
-
 temp = input("Enter 10 elements separated by space : \n")
 lst = temp.split(" ")
 lst = [int(i) for i in lst]
