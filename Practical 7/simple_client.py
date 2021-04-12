@@ -48,7 +48,7 @@ while True:
             # If we received no data, server gracefully closed a connection, for example using socket.close() or socket.shutdown(socket.SHUT_RDWR)
             if not len(username_header):
                 print('Connection closed by the server')
-                sys.exit()
+                exit()
 
             # Convert header to int value
             username_length = int(username_header.decode('utf-8').strip())
